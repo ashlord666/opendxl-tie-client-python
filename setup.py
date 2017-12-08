@@ -18,9 +18,9 @@ dist = setup(
     version=VERSION,
 
     # Requirements
-    install_requires={
+    install_requires=[
         "dxlclient",
-    },
+    ],
 
     # Application author details:
     author="McAfee, Inc.",
